@@ -30,4 +30,4 @@ jobs:
       - name: Split
         run: ./vendor/bin/monorepo-builder split --max-processes 8
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_PUSH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PUSH_TOKEN }}
